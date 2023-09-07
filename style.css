@@ -24,6 +24,10 @@
     margin-left: 20px;
     font-weight: 600;
 }
+.header .nav a:hover{
+    color: cyan;
+    font-size: 30px;
+}
 .header .search input{
     background: transparent;
     font-size: 20px;
@@ -109,6 +113,7 @@
 .content .icon i:hover{
     color: red;
     cursor: pointer;
+    font-size: 40px;
 }
 .login{
     width: 450px;
@@ -148,7 +153,7 @@
 }
 .login .input i{
     position: relative;
-    right: -370px;
+    right: -300px;
     bottom: 27px;
     color: white;
 }
